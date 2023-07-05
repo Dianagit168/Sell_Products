@@ -52,8 +52,10 @@ class MealDetailScreen extends StatelessWidget {
                 ingr.toString(), //list index used foreach
                 //semanticsLabel: mealDetail.ingredients.toString(),
 
-                style:
-                    const TextStyle(fontSize: 20, color: Colors.purpleAccent),
+                style: const TextStyle(
+                    fontSize: 17,
+                    color: Colors.black,
+                    fontWeight: FontWeight.bold),
               ),
             const SizedBox(
               height: 30,
@@ -73,9 +75,9 @@ class MealDetailScreen extends StatelessWidget {
                 stp.toString(),
                 textAlign: TextAlign.justify,
                 style: const TextStyle(
-                  fontSize: 20,
-                  color: Colors.purpleAccent,
-                ),
+                    fontSize: 17,
+                    color: Colors.black,
+                    fontWeight: FontWeight.bold),
               ),
           ],
         ),

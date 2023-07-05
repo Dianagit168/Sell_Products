@@ -52,7 +52,16 @@ class MealItems extends StatelessWidget {
                   vertical: 6,
                   horizontal: 44,
                 ),
-                color: const Color.fromARGB(255, 236, 110, 152),
+                decoration: BoxDecoration(
+                  gradient: LinearGradient(
+                    colors: [
+                      const Color.fromARGB(255, 36, 25, 28).withOpacity(0.5),
+                      Color.fromARGB(255, 239, 115, 156).withOpacity(0.5),
+                    ],
+                    end: Alignment.topRight,
+                    begin: Alignment.bottomLeft,
+                  ),
+                ),
                 child: Column(
                   children: [
                     Text(
